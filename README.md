@@ -2,15 +2,20 @@
 
 # Skills for Claude Code
 
-**42 ready-to-use skills across 10 categories — drop them into `.claude/skills/` and go.**
+**42 ready-to-use skills across 10 categories.**
+**Drop them into `.claude/skills/` and go.**
 
-[![Skills](https://img.shields.io/badge/skills-42-blue)]()
-[![Categories](https://img.shields.io/badge/categories-10-green)]()
-[![License](https://img.shields.io/badge/license-MIT-yellow)]()
+&nbsp;
+
+[![Skills](https://img.shields.io/badge/skills-42-4A90D9?style=for-the-badge)]()
+&nbsp;&nbsp;
+[![Categories](https://img.shields.io/badge/categories-10-50C878?style=for-the-badge)]()
+&nbsp;&nbsp;
+[![License](https://img.shields.io/badge/license-MIT-F5C542?style=for-the-badge)]()
+
+&nbsp;
 
 </div>
-
----
 
 ## What Are Claude Skills?
 
@@ -20,41 +25,124 @@ This repo contains **26 custom marketing skills** and **16 official Anthropic sk
 
 ## Installation
 
-Copy any skill folder into your project:
-
 ```bash
 # Copy a single skill
-cp -r path/to/skills/marketing/cro/page-cro .claude/skills/
+cp -r marketing/cro/page-cro /path/to/your-project/.claude/skills/
 
-# Or copy an entire category
-cp -r path/to/skills/marketing/seo/* .claude/skills/
+# Copy an entire category
+cp -r marketing/seo/* /path/to/your-project/.claude/skills/
 ```
 
-Claude will detect and use the skills automatically based on your prompts.
+Claude detects and uses skills automatically based on your prompts.
+
+&nbsp;
 
 ---
+
+&nbsp;
 
 ## Table of Contents
 
-**Marketing**
-- [CRO (Conversion Rate Optimization)](#cro-conversion-rate-optimization)
-- [Content & Copy](#content--copy)
-- [SEO](#seo)
-- [Analytics & Testing](#analytics--testing)
-- [Strategy & Growth](#strategy--growth)
-- [Foundation](#foundation)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Anthropic Official**
-- [Documents](#documents)
-- [Design](#design)
-- [Development](#development)
-- [Communication](#communication)
+### Marketing Skills
+
+**[CRO](#-cro--conversion-rate-optimization)** — 6 skills
+- [page-cro](#page-cro) — Landing page conversion optimization
+- [form-cro](#form-cro) — Form completion optimization
+- [signup-flow-cro](#signup-flow-cro) — Registration flow optimization
+- [onboarding-cro](#onboarding-cro) — Post-signup activation
+- [paywall-upgrade-cro](#paywall-upgrade-cro) — In-app upgrade screens
+- [popup-cro](#popup-cro) — Popups, modals, and overlays
+
+**[Content & Copy](#-content--copy)** — 5 skills
+- [copywriting](#copywriting) — Marketing page copy
+- [copy-editing](#copy-editing) — Copy review and polish
+- [content-strategy](#content-strategy) — Content planning and calendars
+- [social-content](#social-content) — Social media content
+- [email-sequence](#email-sequence) — Drip campaigns and sequences
+
+**[SEO](#-seo)** — 4 skills
+- [seo-audit](#seo-audit) — Technical and on-page SEO audits
+- [programmatic-seo](#programmatic-seo) — Pages at scale from templates
+- [schema-markup](#schema-markup) — JSON-LD structured data
+- [competitor-alternatives](#competitor-alternatives) — Comparison and alternative pages
+
+**[Analytics & Testing](#-analytics--testing)** — 2 skills
+- [analytics-tracking](#analytics-tracking) — GA4, GTM, event tracking
+- [ab-test-setup](#ab-test-setup) — Experiment design and analysis
+
+**[Strategy & Growth](#-strategy--growth)** — 7 skills
+- [pricing-strategy](#pricing-strategy) — Pricing tiers and packaging
+- [launch-strategy](#launch-strategy) — Product launch planning
+- [marketing-ideas](#marketing-ideas) — 139 growth tactics
+- [marketing-psychology](#marketing-psychology) — 70+ mental models
+- [referral-program](#referral-program) — Referral and affiliate programs
+- [free-tool-strategy](#free-tool-strategy) — Engineering as marketing
+- [paid-ads](#paid-ads) — PPC across all platforms
+
+**[Foundation](#-foundation)** — 2 skills
+- [product-marketing-context](#product-marketing-context) — Shared marketing context
+- [visual-qa](#visual-qa) — Screenshot-driven visual QA
+
+</td>
+<td width="50%" valign="top">
+
+### Anthropic Official Skills
+
+**[Documents](#-documents)** — 4 skills
+- [docx](#docx) — Word document creation
+- [pdf](#pdf) — PDF manipulation toolkit
+- [pptx](#pptx) — PowerPoint presentations
+- [xlsx](#xlsx) — Spreadsheet creation
+
+**[Design](#-design)** — 6 skills
+- [frontend-design](#frontend-design) — Production-grade web UI
+- [canvas-design](#canvas-design) — Visual art in PNG/PDF
+- [algorithmic-art](#algorithmic-art) — Generative art with p5.js
+- [brand-guidelines](#brand-guidelines) — Brand identity application
+- [theme-factory](#theme-factory) — Theme toolkit for artifacts
+- [slack-gif-creator](#slack-gif-creator) — Animated GIFs for Slack
+
+**[Development](#-development)** — 4 skills
+- [mcp-builder](#mcp-builder) — MCP server creation
+- [web-artifacts-builder](#web-artifacts-builder) — Multi-component artifacts
+- [webapp-testing](#webapp-testing) — Playwright web testing
+- [skill-creator](#skill-creator) — Skill creation guide
+
+**[Communication](#-communication)** — 2 skills
+- [doc-coauthoring](#doc-coauthoring) — Documentation co-authoring
+- [internal-comms](#internal-comms) — Internal communications
+
+</td>
+</tr>
+</table>
+
+&nbsp;
 
 ---
 
-## Marketing Skills
+&nbsp;
 
-### CRO (Conversion Rate Optimization)
+<div align="center">
+
+# Marketing Skills
+
+*26 skills for SaaS and software marketing — conversion optimization, copywriting, SEO, analytics, growth strategy, and more.*
+
+</div>
+
+&nbsp;
+
+---
+
+### CRO — Conversion Rate Optimization
+
+> *6 skills for optimizing every conversion point — from landing pages to signup flows to in-app upgrades.*
+
+&nbsp;
 
 #### page-cro
 
@@ -68,7 +156,7 @@ Systematic conversion rate optimization for any marketing page — homepage, lan
 
 **Related:** signup-flow-cro, form-cro, copywriting, ab-test-setup
 
----
+&nbsp;
 
 #### form-cro
 
@@ -82,7 +170,7 @@ Optimizes any non-signup form — lead capture, contact, demo request, applicati
 
 **Related:** signup-flow-cro, popup-cro, page-cro, ab-test-setup
 
----
+&nbsp;
 
 #### signup-flow-cro
 
@@ -96,7 +184,7 @@ Optimizes signup, registration, account creation, and trial activation flows. Co
 
 **Related:** onboarding-cro, form-cro, page-cro
 
----
+&nbsp;
 
 #### onboarding-cro
 
@@ -110,7 +198,7 @@ Optimizes post-signup onboarding, user activation, and first-run experience. Foc
 
 **Related:** signup-flow-cro, email-sequence
 
----
+&nbsp;
 
 #### paywall-upgrade-cro
 
@@ -124,7 +212,7 @@ Creates and optimizes in-app paywalls, upgrade screens, upsell modals, and featu
 
 **Related:** pricing-strategy, page-cro, popup-cro
 
----
+&nbsp;
 
 #### popup-cro
 
@@ -138,9 +226,15 @@ Creates and optimizes popups, modals, overlays, slide-ins, and banners. Covers t
 
 **Related:** form-cro, page-cro, email-sequence
 
+&nbsp;
+
 ---
 
 ### Content & Copy
+
+> *5 skills for writing, editing, and planning marketing content across every channel.*
+
+&nbsp;
 
 #### copywriting
 
@@ -154,7 +248,7 @@ Writes and improves marketing copy for any page type. Uses proven frameworks (PA
 
 **Related:** copy-editing, page-cro, email-sequence, popup-cro
 
----
+&nbsp;
 
 #### copy-editing
 
@@ -168,7 +262,7 @@ Systematic approach to editing marketing copy through multiple focused passes �
 
 **Related:** copywriting, page-cro, content-strategy
 
----
+&nbsp;
 
 #### content-strategy
 
@@ -182,7 +276,7 @@ Plans content strategy including topic selection, content types, publishing cade
 
 **Related:** copywriting, seo-audit, social-content, programmatic-seo
 
----
+&nbsp;
 
 #### social-content
 
@@ -196,7 +290,7 @@ Creates, schedules, and optimizes social media content across platforms. Covers 
 
 **Related:** content-strategy, copywriting, launch-strategy
 
----
+&nbsp;
 
 #### email-sequence
 
@@ -210,9 +304,15 @@ Creates and optimizes email sequences, drip campaigns, and lifecycle email progr
 
 **Related:** onboarding-cro, copywriting, ab-test-setup
 
+&nbsp;
+
 ---
 
 ### SEO
+
+> *4 skills for search engine optimization — audits, structured data, programmatic pages, and competitive content.*
+
+&nbsp;
 
 #### seo-audit
 
@@ -226,7 +326,7 @@ Comprehensive SEO audit covering technical SEO, on-page optimization, content qu
 
 **Related:** programmatic-seo, schema-markup, page-cro, analytics-tracking
 
----
+&nbsp;
 
 #### programmatic-seo
 
@@ -240,7 +340,7 @@ Creates SEO-driven pages at scale using templates and data. Covers page types (d
 
 **Related:** seo-audit, schema-markup, content-strategy
 
----
+&nbsp;
 
 #### schema-markup
 
@@ -254,7 +354,7 @@ Adds, fixes, and optimizes schema markup and structured data. Covers JSON-LD imp
 
 **Related:** seo-audit, programmatic-seo
 
----
+&nbsp;
 
 #### competitor-alternatives
 
@@ -268,9 +368,15 @@ Creates competitor comparison and alternative pages for SEO and sales enablement
 
 **Related:** seo-audit, copywriting, content-strategy
 
+&nbsp;
+
 ---
 
 ### Analytics & Testing
+
+> *2 skills for measurement, tracking, and experimentation.*
+
+&nbsp;
 
 #### analytics-tracking
 
@@ -284,7 +390,7 @@ Sets up, improves, and audits analytics tracking and measurement. Covers GA4, GT
 
 **Related:** ab-test-setup, page-cro, seo-audit
 
----
+&nbsp;
 
 #### ab-test-setup
 
@@ -298,9 +404,15 @@ Plans, designs, and implements A/B tests and experiments. Covers hypothesis form
 
 **Related:** page-cro, analytics-tracking, copywriting
 
+&nbsp;
+
 ---
 
 ### Strategy & Growth
+
+> *7 skills for pricing, launches, growth tactics, psychology, referrals, and paid acquisition.*
+
+&nbsp;
 
 #### pricing-strategy
 
@@ -314,7 +426,7 @@ Guides pricing decisions, packaging, and monetization strategy. Covers pricing r
 
 **Related:** paywall-upgrade-cro, page-cro, launch-strategy
 
----
+&nbsp;
 
 #### launch-strategy
 
@@ -328,7 +440,7 @@ Plans product launches, feature announcements, and release strategies. Covers ph
 
 **Related:** marketing-ideas, email-sequence, page-cro, marketing-psychology
 
----
+&nbsp;
 
 #### marketing-ideas
 
@@ -342,7 +454,7 @@ Provides 139 proven marketing approaches organized by category — from content 
 
 **Related:** launch-strategy, content-strategy, free-tool-strategy
 
----
+&nbsp;
 
 #### marketing-psychology
 
@@ -356,7 +468,7 @@ Provides 70+ mental models and psychological principles organized for marketing 
 
 **Related:** copywriting, page-cro, pricing-strategy, paid-ads
 
----
+&nbsp;
 
 #### referral-program
 
@@ -370,7 +482,7 @@ Creates and optimizes referral programs, affiliate programs, and word-of-mouth s
 
 **Related:** launch-strategy, pricing-strategy, email-sequence
 
----
+&nbsp;
 
 #### free-tool-strategy
 
@@ -384,7 +496,7 @@ Plans, evaluates, and builds free tools for marketing purposes — lead generati
 
 **Related:** marketing-ideas, content-strategy, seo-audit
 
----
+&nbsp;
 
 #### paid-ads
 
@@ -398,9 +510,15 @@ Covers paid advertising across Google Ads, Meta, LinkedIn, Twitter/X, and more. 
 
 **Related:** analytics-tracking, page-cro, copywriting
 
+&nbsp;
+
 ---
 
 ### Foundation
+
+> *2 foundational skills — shared marketing context and visual quality assurance.*
+
+&nbsp;
 
 #### product-marketing-context
 
@@ -414,7 +532,7 @@ Creates a `.claude/product-marketing-context.md` file that other marketing skill
 
 **Related:** copywriting, content-strategy, page-cro
 
----
+&nbsp;
 
 #### visual-qa
 
@@ -428,13 +546,29 @@ Autonomous screenshot-driven visual QA for any website or web application. Captu
 
 **Related:** page-cro, copy-editing, seo-audit
 
+&nbsp;
+
 ---
 
-## Anthropic Official Skills
+&nbsp;
 
-> The following skills are from the [Anthropic Skills Repository](https://github.com/anthropics/skills) and included here for convenience.
+<div align="center">
+
+# Anthropic Official Skills
+
+*16 skills from the [Anthropic Skills Repository](https://github.com/anthropics/skills) — documents, design, development, and communication.*
+
+</div>
+
+&nbsp;
+
+---
 
 ### Documents
+
+> *4 skills for creating, reading, and manipulating office documents.*
+
+&nbsp;
 
 #### docx
 
@@ -446,7 +580,7 @@ Autonomous screenshot-driven visual QA for any website or web application. Captu
 
 Creates, reads, edits, and manipulates Word documents (.docx). Handles tables of contents, headings, page numbers, letterheads, images, find-and-replace, and tracked changes.
 
----
+&nbsp;
 
 #### pdf
 
@@ -458,7 +592,7 @@ Creates, reads, edits, and manipulates Word documents (.docx). Handles tables of
 
 Full PDF toolkit — reading, extracting, combining, splitting, rotating, watermarking, encrypting, form filling, image extraction, and OCR for scanned documents.
 
----
+&nbsp;
 
 #### pptx
 
@@ -470,7 +604,7 @@ Full PDF toolkit — reading, extracting, combining, splitting, rotating, waterm
 
 Creates, reads, edits, and manipulates PowerPoint presentations. Handles templates, layouts, speaker notes, comments, and consistent slide styling.
 
----
+&nbsp;
 
 #### xlsx
 
@@ -482,9 +616,15 @@ Creates, reads, edits, and manipulates PowerPoint presentations. Handles templat
 
 Creates, reads, edits, and manipulates spreadsheet files (.xlsx, .csv, .tsv). Handles formulas, charts, formatting, data cleaning, and format conversion.
 
+&nbsp;
+
 ---
 
 ### Design
+
+> *6 skills for frontend interfaces, visual art, branding, and creative assets.*
+
+&nbsp;
 
 #### frontend-design
 
@@ -496,7 +636,7 @@ Creates, reads, edits, and manipulates spreadsheet files (.xlsx, .csv, .tsv). Ha
 
 Creates distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics — for websites, landing pages, dashboards, and components.
 
----
+&nbsp;
 
 #### canvas-design
 
@@ -508,7 +648,7 @@ Creates distinctive, production-grade frontend interfaces with high design quali
 
 Creates beautiful visual art in PNG and PDF formats using design philosophy. For posters, static art, and original visual compositions — never copies existing artists' work.
 
----
+&nbsp;
 
 #### algorithmic-art
 
@@ -520,7 +660,7 @@ Creates beautiful visual art in PNG and PDF formats using design philosophy. For
 
 Creates algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Covers flow fields, particle systems, and generative compositions.
 
----
+&nbsp;
 
 #### brand-guidelines
 
@@ -532,7 +672,7 @@ Creates algorithmic art using p5.js with seeded randomness and interactive param
 
 Applies brand colors, typography, and design standards to any artifact. Ensures consistent visual identity across all outputs.
 
----
+&nbsp;
 
 #### theme-factory
 
@@ -544,7 +684,7 @@ Applies brand colors, typography, and design standards to any artifact. Ensures 
 
 Toolkit with 10 preset themes (colors/fonts) for styling any artifact — slides, docs, reports, landing pages. Can also generate new themes dynamically.
 
----
+&nbsp;
 
 #### slack-gif-creator
 
@@ -556,9 +696,15 @@ Toolkit with 10 preset themes (colors/fonts) for styling any artifact — slides
 
 Creates animated GIFs optimized for Slack's constraints. Provides validation tools, animation concepts, and size optimization for smooth Slack display.
 
+&nbsp;
+
 ---
 
 ### Development
+
+> *4 skills for building MCP servers, web artifacts, testing, and creating new skills.*
+
+&nbsp;
 
 #### mcp-builder
 
@@ -570,7 +716,7 @@ Creates animated GIFs optimized for Slack's constraints. Provides validation too
 
 Guide for creating high-quality MCP (Model Context Protocol) servers in Python (FastMCP) or TypeScript (MCP SDK). Covers tool design, error handling, and service integration patterns.
 
----
+&nbsp;
 
 #### web-artifacts-builder
 
@@ -582,7 +728,7 @@ Guide for creating high-quality MCP (Model Context Protocol) servers in Python (
 
 Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using React, Tailwind CSS, and shadcn/ui. For complex artifacts requiring state management, routing, or rich component libraries.
 
----
+&nbsp;
 
 #### webapp-testing
 
@@ -594,7 +740,7 @@ Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts 
 
 Playwright-based toolkit for interacting with and testing local web applications. Supports screenshot capture, UI verification, browser log analysis, and interactive debugging.
 
----
+&nbsp;
 
 #### skill-creator
 
@@ -606,9 +752,15 @@ Playwright-based toolkit for interacting with and testing local web applications
 
 Guide for creating effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations. Covers skill structure, triggers, and best practices.
 
+&nbsp;
+
 ---
 
 ### Communication
+
+> *2 skills for documentation and internal communications.*
+
+&nbsp;
 
 #### doc-coauthoring
 
@@ -620,7 +772,7 @@ Guide for creating effective skills that extend Claude's capabilities with speci
 
 Structured workflow for co-authoring documentation — proposals, technical specs, decision docs, and similar content. Helps transfer context, refine through iteration, and verify reader effectiveness.
 
----
+&nbsp;
 
 #### internal-comms
 
@@ -632,7 +784,11 @@ Structured workflow for co-authoring documentation — proposals, technical spec
 
 Templates and resources for internal communications — status reports, leadership updates, newsletters, FAQs, incident reports, project updates, and more. Adapts to your company's preferred formats.
 
+&nbsp;
+
 ---
+
+&nbsp;
 
 ## Contributing
 
